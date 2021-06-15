@@ -21,10 +21,14 @@
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7",
     "path": "^0.12.7",
     "pg": "^8.5.1",
     "prettier": "^2.2.1",
-    "sequelize": "^6.3.5"
+    "puppeteer": "^9.1.1",
+    "puppeteer-core": "^9.1.1",
+    "sequelize": "^6.6.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",

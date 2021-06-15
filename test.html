@@ -1,0 +1,354 @@
+<html class="draft"></html>
+<head>
+    <style>
+       body {
+           font-family: Arial, Helvetica, sans-serif;
+           margin: 50px 100px;
+       }
+
+       .line {
+           border: 1px solid black;
+           border-collapse: collapse;
+           padding: 5px;
+       }
+
+       .mini-row {
+           width: 50px;
+       }
+
+       .big-row {
+           width: 600px;
+       }
+
+       .big-row2 {
+           width: 130px;
+       }
+
+       
+       .big-row3 {
+           width: 1500px;
+       }
+
+       .big-row4 {
+           height: 30px;
+       } 
+
+       .big-row-5 {
+           width: 1400px;
+           height: 50px;
+       }
+
+        .draft {
+               background-image: url('https://i.ibb.co/m90m4jT/garuda.png');
+               background-repeat: no-repeat;
+               opacity: 2;
+               z-index: 0;
+               background-size:cover;
+               min-zoom: 300%;
+               max-width:100%;
+               max-height:100%;
+       }
+
+          .draft1 {
+               background-image: url('https://i.ibb.co/yWdgXcx/output-onlinepngtools.png');
+               background-repeat: no-repeat;
+               opacity: 2;
+               z-index: 0;
+               background-size:cover;
+               min-zoom: 300%;
+               max-width:100%;
+               max-height:100%;
+       }
+   </style>
+   </head>
+   <body>
+       <div class="body">
+           {{!-- <div class="draft"> --}}
+                <div>
+               <h6 style="font-weight: lighter; font-size: 12px; text-align: center;" class="header">LAPORAN KEGIATAN PENANAMAN MODAL (LKPM)</h6>
+               <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px; text-align: center;">TAHAP OPERASIONAL DAN/ATAU KOMERSIAL</h6>
+               <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px; text-align: center;">TAHUN ....</h6>
+           </div>
+           <div><h6 style="font-weight: lighter; font-size: 12px; margin-bottom: 50px;">PRIODE:</h6></div>
+           <div style="margin-top: -20px;">
+               <table>
+                   <tr >
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">Triwulan Pertama ( Januari - Maret )</td>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">( )</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">Triwulan Kedua ( April - Juni )</td>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">( )</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">Triwulan Ketiga ( Juli - September )</td>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">( )</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">Triwulan Keempat</td>
+                       <td class="mini-row" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row" style="font-weight: lighter; font-size: 12px;">( )</td>
+                   </tr>
+               </table>
+           </div>
+           <br>
+           <br>
+           <br>
+           <div style="margin-top: 20px;">
+               <h6 style="font-weight: lighter; font-size: 12px;">I. KETERANGAN PERUSAHAAN</h6>
+               <table class="line">
+                   <tr >
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">1</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Nama Pelaku Usaha/Perusahaan</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{nama_pelaku_usaha}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">2</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Nomor Induk Berusaha (NIB)</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{nib}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">3</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Nomor Kode Proyek</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{nomor_kode_proyek}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">4</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Perizinan Berusaha</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{perizinan_berusaha}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">5</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Kegiatan Usaha</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{kegiatan_usaha}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">6</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Bidang Usaha</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{bidang_usaha}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">7</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Alamat lokasi proyek</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{alamat_lokasi_proyek}}</td>
+                   </tr>
+                   <tr>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">8</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Alamat Kantor</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{alamat_kantor}}</td>
+                   </tr>
+               </table>
+           </div>
+           <div>
+
+          
+           </div>
+           <div style='margin-top: 200px;'>
+           </div>
+           <br>
+           <div class='draft1' style='margin-top: 150px;'>
+               <h6 style="font-weight: lighter; font-size: 12px;">I. REALISASI PENANAMAN MODAL</h6>
+               <table class="line">
+                   <tr style="text-align: center;" >
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">Investasi</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Tambahan realisasi pada priode pelaporan</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Total akumulasi s/d priode pelaporan</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">Modal Tetap</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{modal_tetap_tambahan_realisasi_priode_pelaporan}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{modal_tetap_total_akumulasi_priode_pelaporan}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;"> <span style="margin-left: 10px;"></span> a. Pengadaan tanah</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{ tambahRealisasiTanah}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{ totalAkumulasiTanah}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;"> <span style="margin-left: 10px;"></span> b. Pembangunan bangunan gedung</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{tambahRealisasiGedung}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{totalAkumulasiTanah}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px; "> <span style="margin-left: 10px;"></span> c. Pengadaan peralatan/sarana/mesin</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{tambahRealisasiMesin}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{totalAkumulasiMesin}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;"> <span style="margin-left: 20px;"></span> (1). Pembelian dalam negri</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{tambahanRealisasiDalamNegeri}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{pembelian_dalam_negri_akumulasi_priode_pelaporan}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;"> <span style="margin-left: 20px;"></span> (2). Pembelian luar negri</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{pembelian_luar_negri_realisasi_priode_pelaporan}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{pembelian_luar_negri_akumulasi_priode_pelaporan}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;"> <span style="margin-left: 10px;"></span> d. Lain-lain</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{lainTotal}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{lain_lain_akumulasi_priode_pelaporan}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px; "> <span style="margin-left: 55px;"></span> Sub jumlah</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{tambahanRealisasiSubjumlah}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{modalTotalTotal}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">2. Modal Kerja (untuk 1 turnover)</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{modal_kerja_1turnover_realisasi_priode_pelaporan}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{modal_kerja_1turnover_akumulasi_priode_pelaporan}}</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;"> <span style="margin-left: 10px;"></span> Total Jumlah Realisasi</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{jumlahtotalRealisasi}}</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">{{jumlahModalTotal}}</td>
+                   </tr>
+               </table>
+           </div>
+
+           <div>
+               <h6 style="font-weight: lighter; font-size: 12px;">Perhatian:</h6>
+               <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px;">Apabila perusahaan memiliki lebih dari satu lokasi proyek/bidang usaha, investasi</h6>
+               <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px;">wajib dirinci untuk masing-masing lokasi proyek/bidang usaha</h6>
+           </div>
+           <div style='margin-top: 200px;'>
+           </div>
+           <br>
+           <div class='draft1' style='margin-top: 150px;'>
+               <h6 style="font-weight: lighter; font-size: 12px;">II. PENGGUNAAN TENAGA KERJA*)</h6>
+               <table class="line">
+                   <tr style="text-align: center;" >
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">Tenaga Kerja Perusahaan</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Total tenaga kerja Priode sebelumnya</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Tambahan tenaga kerja priode pelaporan</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Pengurangan tenaga kerja priode pelaporan</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">Total tenaga kerja sampai dengan priode pelaporan</td>
+                   </tr>
+                   <tr style="text-align: center;" >
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">Indonesia</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">-</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;">-</td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">- Laki - laki</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{nakerKontraktorIndonesiaLakiLaki}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{laki_laki_tambahan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{laki_laki_pengurangan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{laki_laki_total_tenaga_kerja_sampai_dengan_priode_pelaporan}} Orang </td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">- Perempuan</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{perempuan_total_tenaga_kerja_priode_sebelumnya}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{perempuan_tambahan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{perempuan_pengurangan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{perempuan_total_tenaga_kerja_sampai_dengan_priode_pelaporan}} Orang </td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">Asing</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{asing_total_tenaga_kerja_priode_sebelumnya}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{asing_tambahan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{asing_pengurangan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{asing_total_tenaga_kerja_sampai_dengan_priode_pelaporan}} Orang </td>
+                   </tr>
+                   <tr>
+                       <td class="big-row3 line" style="font-weight: lighter; font-size: 12px;">Jumlah</td>
+                       <td class="mini-row line" style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{jumlah_total_tenaga_kerja_priode_sebelumnya}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{jumlah_tambahan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{jumlah_pengurangan_tenaga_kerja_priode_pelaporan}} Orang </td>
+                       <td class="big-row line" style="font-weight: lighter; font-size: 12px;"> {{jumlah_total_tenaga_kerja_sampai_dengan_priode_pelaporan}} Orang </td>
+                   </tr>
+               </table>
+           </div>
+           <div >
+           <div>
+               <h6 style="font-weight: lighter; font-size: 12px;">Dari total tenaga kerja di atas, tenaga kerja lokal yang diserap sejumlah</h6>
+               <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px;">... Orang</h6>
+               <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px;">*) Tidak termasuk Komisaris dan Direksi, termasuk tenaga kerja kontrak</h6>
+           </div>
+            <div style='margin-top: 400px;'>
+           </div>
+           <br>
+           <div class='draft1' style='margin-top: 200px;'>
+               <h6 style="font-weight: lighter; font-size: 12px;">III. PERMASALAHAN YANG DIHADAPI PERUSAHAAN</h6>
+               <table class="line">
+                   <tr>
+                       <td class="big-row-5 line">{{permasalahan_yang_dihadapi}}</td>
+                   </tr>
+               </table>
+           </div>
+           <div>
+               <h6 style="font-weight: lighter; font-size: 12px;">Laporan disusun dan ditandatangani oleh penanggung jawab perusahaan mewakili untuk dan atas nama Direksi
+               perusahaan dengan mencantumkan nama jelas, jabatan, nomor telepon (untuk memudahkan komunikasi, diutamakan handphone),
+           dan email aktif. Pelaku Usaha dapat mencantumkan lebih dari satu email aktif di bagian penanggung jawab.</h6>
+           </div>
+       <div>
+       <div style="margin-left: 50px; margin-top: 20px;">
+           <h6 style="font-weight: lighter; font-size: 12px;">(Tempat), (Tanggal dan Bulan) 20...</h6>
+           <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px;">Direksi/Kuasa Direksi</h6>
+           <h6 style="font-weight: lighter; font-size: 12px; margin-top: -20px;">Selaku Penanggung Jawab</h6>
+           <br>
+           <div style="margin-top: -20px;">
+               <table>
+                   <tr >
+                       <td style="font-weight: lighter; font-size: 12px;">Nama Jelas</td>
+                       <td style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td style="font-weight: lighter; font-size: 12px;">{{namaPetugas}}</td>
+                   </tr>
+                   <tr>
+                       <td style="font-weight: lighter; font-size: 12px;">Jabatan</td>
+                       <td style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td style="font-weight: lighter; font-size: 12px;">{{jabatan}}</td>
+                   </tr>
+                   <tr>
+                       <td style="font-weight: lighter; font-size: 12px;">No. Telepon</td>
+                       <td style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td style="font-weight: lighter; font-size: 12px;">{{noTelpHp}}</td>
+                   </tr>
+                   <tr>
+                       <td style="font-weight: lighter; font-size: 12px;">Email</td>
+                       <td style="font-weight: lighter; font-size: 12px;">:</td>
+                       <td style="font-weight: lighter; font-size: 12px;">{{emailPetugas}}</td>
+                   </tr>
+               </table>
+           
+           {{!-- </div> --}}
+          
+       </div>
+           </div>
+   </body>
+</html>

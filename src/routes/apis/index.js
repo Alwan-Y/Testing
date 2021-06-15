@@ -1,6 +1,7 @@
 import express from 'express';
 import FinanceTransaction from '../../controllers/financeTransactionController';
 import FinanceAccountController from '../../controllers/financeAccountController';
+import BujkaController from '../../controllers/bujka'
 
 const router = express.Router();
 
@@ -22,5 +23,8 @@ router.delete(
   '/account/:finance_account_id',
   FinanceAccountController.deleteAccount
 );
+
+router.get('/bujka', BujkaController.getAllData)
+router.patch('/bujka', BujkaController.createData)
 
 export default router;
